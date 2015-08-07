@@ -1,0 +1,2 @@
+# bulletin
+Church bulletin autogenerator
