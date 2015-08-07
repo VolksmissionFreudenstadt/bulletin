@@ -1,0 +1,23 @@
+{
+    "name": "vmfds/bulletin",
+    "version": "2.0.0",
+    "description": "Church bulletin autogenerator",
+    "license": "GPL-3.0+",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/VolksmissionFreudenstadt/bulletin.git"
+        }
+    ],
+    "require": {
+        "twig/twig": "~1.0",
+        "monolog/monolog": "~1.13.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "VMFDS\\Cutter\\": "Classes/",
+	    "VMFDS\\Bulletin\\": "Classes/"
+        }
+    }
+}
